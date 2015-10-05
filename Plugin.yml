@@ -1,0 +1,12 @@
+name: SimpleHealer
+author: AgusD
+version: ${project.version}
+main: com.agusd.simplehealer.Main
+descripcion: Un comando para curarte, así de facil!
+commands:
+    h:
+        description: Curate rapidamente!
+        usage: /h
+    k:
+        description: Mata a alguien!
+        usage: /k
