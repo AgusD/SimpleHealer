@@ -16,7 +16,6 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         instance = this;
         
-        //*Arreglar, tira error con linea de abajo*\\
         this.getCommand("k").setExecutor(new Kill(this));
         this.getLogger().info("El plugin se ha cargado");
 }
